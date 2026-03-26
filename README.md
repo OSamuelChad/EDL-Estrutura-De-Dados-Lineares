@@ -25,4 +25,8 @@ Repositório da disciplina de **Estrutura de Dados Lineares**, com implementaç�
 
 ## Autor
 
+<<<<<<< HEAD
 Feito por **OSamuelChad**
+=======
+Feito por **OSamuelChad**
+>>>>>>> 378dda3285126ddfd7e1ff72c9ec2b78aed2c08d
