@@ -35,21 +35,19 @@ public class PilhaRubroNegra {
 
     private void realocarElementosArray() {
         Object b[] = new Object[capacidade];
-        // Copia a parte vermelha
         for (int f = 0; f <= tVermelho; f++) {
             b[f] = a[f];
         }
-        
-        // Calcula e move a parte preta para o novo final do array
+
         int qtdPretos = a.length - tPreto;
         int novoTPreto = capacidade - qtdPretos;
         int indiceNovoAux = novoTPreto;
-        
+
         for (int i = 0; i < qtdPretos; i++) {
             b[indiceNovoAux] = a[tPreto + i];
             indiceNovoAux++;
         }
-        
+
         a = b;
         tPreto = novoTPreto;
     }
@@ -114,11 +112,10 @@ public class PilhaRubroNegra {
     public int retornaIndiceTopPreto() { return tPreto; }
     public int retornaIndiceTopVermelho() { return tVermelho; }
 
-    // Método de Impressão com Cores ANSI
     public void imprimirArrayInterno() {
         final String RESET = "\u001B[0m";
         final String RED = "\u001B[31m";
-        final String BLACK_BG = "\u001B[40m\u001B[37m"; // Fundo preto, texto branco
+        final String BLACK_BG = "\u001B[40m\u001B[37m";
 
         System.out.print("[ ");
         for (int i = 0; i < capacidade; i++) {

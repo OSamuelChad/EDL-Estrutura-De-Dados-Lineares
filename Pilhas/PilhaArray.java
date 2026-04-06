@@ -55,12 +55,10 @@ public class PilhaArray implements Pilha {
         return t + 1;
     }
 
-    // exercicios de casa
     public void empty() {
         t = -1;
     }
 
-    // errado
     public void adicionaPilha(Pilha p) {
         PilhaArray temp = new PilhaArray(p.size(), 0);
 
