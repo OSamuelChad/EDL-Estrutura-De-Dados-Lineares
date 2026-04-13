@@ -12,6 +12,7 @@ Estrutura De Dados Lineares
 
 ![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow?style=flat-square)
 ![Linguagem](https://img.shields.io/badge/linguagem-Java-red?style=flat-square&logo=openjdk)
+![C++](https://img.shields.io/badge/C++-00599C?style=plastic&logo=c%2B%2B&logoColor=white)
 ![Disciplina](https://img.shields.io/badge/disciplina-EDL-purple?style=flat-square)
 ![Commits](https://img.shields.io/github/commit-activity/t/OSamuelChad/EDL-Estrutura-De-Dados-Lineares?style=flat-square)
 
